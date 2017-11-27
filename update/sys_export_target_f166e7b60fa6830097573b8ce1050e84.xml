@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_export_target">
+    <sys_export_target action="INSERT_OR_UPDATE">
+        <description/>
+        <file_path>/</file_path>
+        <method>File on MID Server</method>
+        <mid_server display_value="midserver1">4eee46b60fe1030097573b8ce1050e5c</mid_server>
+        <name>Maintenance export_midserver1</name>
+        <sys_class_name>sys_export_target</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-24 14:40:45</sys_created_on>
+        <sys_id>f166e7b60fa6830097573b8ce1050e84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Maintenance export_midserver1</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_export_target_f166e7b60fa6830097573b8ce1050e84</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-24 14:40:45</sys_updated_on>
+    </sys_export_target>
+</record_update>

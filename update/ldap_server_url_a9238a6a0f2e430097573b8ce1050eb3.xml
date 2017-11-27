@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="ldap_server_url">
+    <ldap_server_url action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <operational_status>false</operational_status>
+        <order>200</order>
+        <server display_value="Gardiner Hotels">27c08ae60f2e430097573b8ce1050ed9</server>
+        <sys_class_name>ldap_server_url</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-23 12:48:50</sys_created_on>
+        <sys_id>a9238a6a0f2e430097573b8ce1050eb3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>ldap_server_url_a9238a6a0f2e430097573b8ce1050eb3</sys_update_name>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2017-11-23 12:49:06</sys_updated_on>
+        <url/>
+    </ldap_server_url>
+</record_update>

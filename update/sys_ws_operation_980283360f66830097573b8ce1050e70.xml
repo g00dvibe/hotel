@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>GET</http_method>
+        <name>Multiply</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	var body = {}; 
+	body.answer = request.pathParams.a * request.pathParams.b; 
+	response.setBody(body);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_hotel/math/multiply/{a}/{b}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/multiply/{a}/{b}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <short_description>Very simple, looks at two input variables, multiplies them, and sends the result</short_description>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-24 12:03:37</sys_created_on>
+        <sys_id>980283360f66830097573b8ce1050e70</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Multiply</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_ws_operation_980283360f66830097573b8ce1050e70</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-24 12:04:40</sys_updated_on>
+        <web_service_definition display_value="Math">fee143360f66830097573b8ce1050e5a</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
